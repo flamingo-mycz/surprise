@@ -1,0 +1,42 @@
+h1 {
+  font-size: calc(100% + 3vw);
+  cursor: pointer;
+  line-height: 1.2;
+  margin: 0.3em 0;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-repeat: no-repeat;
+  transition: 0.5s ease-out;
+}
+
+.three {
+  background-image: linear-gradient(to bottom, #fb3569, #fb3569), linear-gradient(to bottom, #51eaea, #51eaea);
+  background-size: 0% 100%, 100% 100%;
+  background-position: center;
+}
+.three:hover {
+  background-size: 100% 100%, 100% 100%;
+}
+
+.four {
+  background-image: linear-gradient(to bottom, #fb3569, #fb3569), linear-gradient(to bottom, #51eaea, #51eaea);
+  background-size: 0% 100%, 100% 100%;
+  background-position: center;
+  background-position: 0% 50%, 50% 50%;
+  transition: 0.5s background-size ease-out;
+}
+.four:hover {
+  background-size: 100% 100%, 100% 100%;
+  background-position: 100% 50%, 50% 50%;
+}
+
+body {
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Permanent Marker', cursive;
+  /*background: #fffde1;*/
+}
